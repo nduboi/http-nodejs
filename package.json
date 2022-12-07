@@ -1,10 +1,16 @@
 {
-  "name": "http-nodejs",
+  "name": "azure",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "author": "Aiden Bai",
-  "license": "MIT",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-media-server": "^2.4.9",
+    "socket.io": "^4.5.4"
   }
 }
